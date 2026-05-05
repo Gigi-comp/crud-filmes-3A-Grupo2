@@ -5,7 +5,8 @@ session_start();
 if (!isset($_SESSION['filmes'])) {
     $_SESSION['filmes'] = [
         ["id" => 1, "titulo" => "Matrix", "ano" => 1999],
-        ["id" => 2, "titulo" => "Interestelar", "ano" => 2014]
+        ["id" => 2, "titulo" => "Interestelar", "ano" => 2014],
+        ["id" => 2, "titulo" => "O bicho vai pegar 2", "ano" => 2008]
     ];
 }
 
