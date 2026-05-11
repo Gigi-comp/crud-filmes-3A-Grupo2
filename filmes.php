@@ -8,9 +8,10 @@ if (!isset($_SESSION['filmes'])) {
         ["id" => 2, "titulo" => "Interestelar", "ano" => 2014],
         ["id" => 3, "titulo" => "Dois caras legais", "ano" => 2016],
         ["id" => 4, "titulo" => "A teoria", "ano" => 2014]
+        ["id" => 4, "titulo" => "O bicho vai pegar 2", "ano" => 2008]
     ];
 }
-
+  
 // CREATE
 if (isset($_POST['acao']) && $_POST['acao'] === 'criar') {
     $novo = [
