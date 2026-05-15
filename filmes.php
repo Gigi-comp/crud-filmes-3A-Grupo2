@@ -7,8 +7,7 @@ if (!isset($_SESSION['filmes'])) {
         ["id" => 1, "titulo" => "Matrix", "ano" => 1999],
         ["id" => 2, "titulo" => "Interestelar", "ano" => 2014],
         ["id" => 3, "titulo" => "A teoria de tudo", "ano" => 2014 ]
-        ["id" => 2, "titulo" => "Interestelar", "ano" => 2014]
-        ["id" => 3, "titulo" => "Dois caras legais", "ano" => 2016]
+        ["id" => 4, "titulo" => "As branquelas", "ano" => 2004]
     ];
 }
 
