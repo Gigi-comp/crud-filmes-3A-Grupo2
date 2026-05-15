@@ -10,7 +10,7 @@ if (!isset($_SESSION['filmes'])) {
         ["id" => 4, "titulo" => "As branquelas", "ano" => 2004]
     ];
 }
-
+  
 // CREATE
 if (isset($_POST['acao']) && $_POST['acao'] === 'criar') {
     $novo = [
